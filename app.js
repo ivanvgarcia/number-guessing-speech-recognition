@@ -3,7 +3,7 @@ const msgEl = document.getElementById('msg');
 const randomNum = getRandomNumber();
 
 window.SpeechRecognition =
-  window.SpeechRecognition || window.webkitSpeechRecognition;
+  window.webkitSpeechRecognition || window.SpeechRecognition;
 
 let recognition = new window.SpeechRecognition();
 
